@@ -1,0 +1,72 @@
+// Desafío 1: Mensaje de bienvenida
+console.log("¡Bienvenido!");
+
+// Desafío 2: Saludo utilizando console.log
+var nombre = "Juan"; // Reemplaza con tu nombre
+console.log("¡Hola, " + nombre + "!");
+
+// Desafío 3: Saludo utilizando alert
+var nombre = "Juan"; // Reemplaza con tu nombre
+alert("¡Hola, " + nombre + "!");
+
+// Desafío 4: Utilizar prompt para obtener y mostrar respuesta
+var lenguaje = prompt("¿Cuál es el lenguaje de programación que más te gusta?");
+console.log("Tu lenguaje favorito es: " + lenguaje);
+
+// Desafío 5: Suma de dos valores
+var valor1 = 10;
+var valor2 = 5;
+var resultado = valor1 + valor2;
+console.log("La suma de " + valor1 + " y " + valor2 + " es igual a " + resultado + ".");
+
+// Desafío 6: Resta de dos valores
+var valor1 = 10;
+var valor2 = 5;
+var resultado = valor1 - valor2;
+console.log("La diferencia entre " + valor1 + " y " + valor2 + " es igual a " + resultado + ".");
+
+// Desafío 7: Verificar si es mayor o menor de edad
+var edad = prompt("¿Cuál es tu edad?");
+if (edad >= 18) {
+    console.log("Eres mayor de edad.");
+} else {
+    console.log("Eres menor de edad.");
+}
+
+// Desafío 8: Verificar si un número es positivo, negativo o cero
+var numero = prompt("Ingrese un número:");
+numero = parseFloat(numero); // Convertir a número
+if (numero > 0) {
+    console.log("El número es positivo.");
+} else if (numero < 0) {
+    console.log("El número es negativo.");
+} else {
+    console.log("El número es cero.");
+}
+
+// Desafío 9: Mostrar números del 1 al 10 con un bucle while
+var contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+}
+
+// Desafío 10: Determinar si una nota es aprobada o reprobada
+var nota = 6; // Cambia el valor de la nota aquí
+if (nota >= 7) {
+    console.log("Aprobado");
+} else {
+    console.log("Reprobado");
+}
+
+// Desafío 11: Generar un número aleatorio entre 0 y 1
+var numeroAleatorio = Math.random();
+console.log("Número aleatorio entre 0 y 1: " + numeroAleatorio);
+
+// Desafío 12: Generar un número aleatorio entre 1 y 10
+var numeroAleatorio = Math.floor(Math.random() * 10) + 1;
+console.log("Número aleatorio entre 1 y 10: " + numeroAleatorio);
+
+// Desafío 13: Generar un número aleatorio entre 1 y 1000
+var numeroAleatorio = Math.floor(Math.random() * 1000) + 1;
+console.log("Número aleatorio entre 1 y 1000: " + numeroAleatorio);
